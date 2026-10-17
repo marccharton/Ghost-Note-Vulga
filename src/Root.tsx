@@ -1,9 +1,22 @@
-import { MyComposition } from "./Composition";
+import './shared/fonts';
+import { Composition } from 'remotion';
+import { episodes } from './episodes';
 
-export const RemotionRoot: React.FC = () => {
+// Une <Composition> par épisode du registre src/episodes/index.ts
+export const Root: React.FC = () => {
   return (
     <>
-      <MyComposition />
+      {episodes.map(({ meta, Episode }) => (
+        <Composition
+          key={meta.id}
+          id={meta.id}
+          component={Episode}
+          durationInFrames={meta.durationInFrames}
+          fps={meta.fps}
+          width={meta.width}
+          height={meta.height}
+        />
+      ))}
     </>
   );
 };

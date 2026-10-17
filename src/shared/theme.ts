@@ -26,7 +26,7 @@ export const noteRoles = {
 
 // Les familles sont chargées dans shared/fonts.ts via @remotion/google-fonts
 export const fonts = {
-  display: '"Big Shoulders Display", "Arial Narrow", sans-serif',
+  display: '"Big Shoulders", "Big Shoulders Display", "Arial Narrow", sans-serif',
   body: '"Instrument Sans", system-ui, sans-serif',
   serif: '"Instrument Serif", Georgia, serif',
   mono: '"IBM Plex Mono", ui-monospace, monospace',
@@ -76,4 +76,10 @@ export const film = {
   sprocketHeight: 28,
   sprocketPitch: 52,
   sprocketSpeedPx: 2,
+} as const;
+
+// Volume des sons synthétiques : 0,6 quand la voix off parle, 1 sinon
+export const audio = {
+  underVoice: 0.6,
+  solo: 1,
 } as const;
