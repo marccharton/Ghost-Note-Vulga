@@ -1,0 +1,19 @@
+{
+  "f0": 65.41,
+  "sampleRate": 48000,
+  "sounds": [
+    { "id": "do", "type": "note", "freqs": [65.41], "duration": 2.0 },
+    { "id": "sol", "type": "note", "freqs": [98.115], "duration": 2.0 },
+    { "id": "do_sol", "type": "note", "freqs": [65.41, 98.115], "duration": 3.0 },
+    { "id": "do_sol_long", "type": "note", "freqs": [65.41, 98.115], "duration": 6.5 },
+    { "id": "do_dos", "type": "note", "freqs": [65.41, 69.30], "duration": 5.5 },
+    { "id": "h1", "type": "sine", "freqs": [65.41], "duration": 0.7 },
+    { "id": "h2", "type": "sine", "freqs": [130.82], "duration": 0.7 },
+    { "id": "h3", "type": "sine", "freqs": [196.23], "duration": 0.7 },
+    { "id": "h4", "type": "sine", "freqs": [261.64], "duration": 0.7 },
+    { "id": "h5", "type": "sine", "freqs": [327.05], "duration": 0.7 },
+    { "id": "h6", "type": "sine", "freqs": [392.46], "duration": 0.7 },
+    { "id": "h7", "type": "sine", "freqs": [457.87], "duration": 0.7 },
+    { "id": "h8", "type": "sine", "freqs": [523.28], "duration": 0.7 }
+  ]
+}
